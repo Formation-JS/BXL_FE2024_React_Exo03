@@ -1,13 +1,14 @@
-import './App.css'
+import './App.css';
+import Counter from './components/Counter/Counter';
 
 function App() {
 
   return (
     <>
-    <h1>Exo 02</h1>
-      
+      <h1>Exo 03</h1>
+      <Counter />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
